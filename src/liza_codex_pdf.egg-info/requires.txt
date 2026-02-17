@@ -1,3 +1,4 @@
+ocrmypdf>=16.0.0
 
 [dev]
 pytest

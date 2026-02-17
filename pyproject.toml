@@ -7,12 +7,15 @@ name = "liza_codex_pdf"
 version = "0.1.0"
 description = "CLI scaffold"
 requires-python = ">=3.10"
+dependencies = ["ocrmypdf>=16.0.0"]
 
 [project.optional-dependencies]
 dev = ["pytest", "ruff"]
 
 [project.scripts]
 liza-codex-pdf = "liza_codex_pdf.app:main"
+liza-codex-pdf-web = "liza_codex_pdf.web:main"
+backup = "liza_codex_pdf.backup:main"
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]

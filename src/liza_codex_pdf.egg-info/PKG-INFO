@@ -3,6 +3,7 @@ Name: liza_codex_pdf
 Version: 0.1.0
 Summary: CLI scaffold
 Requires-Python: >=3.10
+Requires-Dist: ocrmypdf>=16.0.0
 Provides-Extra: dev
 Requires-Dist: pytest; extra == "dev"
 Requires-Dist: ruff; extra == "dev"

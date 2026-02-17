@@ -1,2 +1,4 @@
 [console_scripts]
+backup = liza_codex_pdf.backup:main
 liza-codex-pdf = liza_codex_pdf.app:main
+liza-codex-pdf-web = liza_codex_pdf.web:main
