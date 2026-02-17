@@ -1,0 +1,2 @@
+[console_scripts]
+liza-codex-pdf = liza_codex_pdf.app:main
